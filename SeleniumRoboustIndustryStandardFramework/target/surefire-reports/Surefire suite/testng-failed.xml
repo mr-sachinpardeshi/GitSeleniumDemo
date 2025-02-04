@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="testCases.TestOrderCaseAmazon">
+        <methods>
+          <include name="tearDown"/>
+          <include name="launchTheApplication"/>
+          <include name="initializeDriver"/>
+          <include name="test"/>
+          <include name="beforeClass"/>
+          <include name="searchProduct"/>
+        </methods>
+      </class> <!-- testCases.TestOrderCaseAmazon -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

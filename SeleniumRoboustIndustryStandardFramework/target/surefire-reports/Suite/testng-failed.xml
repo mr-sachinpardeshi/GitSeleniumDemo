@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="baseClass.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Error Validations(failed)" verbose="0">
+    <classes>
+      <class name="testCases.ErrorValidations">
+        <methods>
+          <include name="validateAllErrorMessages" invocation-numbers="0 0 1 1 2 2 3 3 4 4 6 6 7 7 8 8 9 9"/>
+          <include name="tearDown"/>
+          <include name="launchTheApplication"/>
+          <include name="initializeDriver"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- testCases.ErrorValidations -->
+    </classes>
+  </test> <!-- Error Validations(failed) -->
+</suite> <!-- Failed suite [Suite] -->

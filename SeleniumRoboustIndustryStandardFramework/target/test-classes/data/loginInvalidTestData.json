@@ -1,0 +1,32 @@
+[
+  {
+    "loginData": "ad@"
+  },
+  {
+    "loginData": "pwe"
+  },
+  {
+    "loginData": "missingAtSymbol.com"
+  },
+  {
+    "loginData": "invalidEmail@domain"
+  },
+  {
+    "loginData": "@domain.com"
+  },
+  {
+    "loginData": "3453454454534535434"
+  },
+  {
+    "loginData": "12345abc"
+  },
+  {
+    "loginData": "abc123456789"
+  },
+  {
+    "loginData": "abc12345"
+  },
+  {
+    "loginData": "abcxyz"
+  }
+]
